@@ -16,6 +16,6 @@ echo 'cloning repo...'
 
 git clone https://github.com/Wyn213/shadower
 mkdir public
-cp shadower/* public
+cp -r shadower/* public
 
 vercel --yes
